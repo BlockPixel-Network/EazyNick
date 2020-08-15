@@ -140,7 +140,7 @@ public class EazyNick extends JavaPlugin {
 				
 				utils.reloadConfigs();
 				
-				utils.sendConsole("§7========== §8[ §5§lEazyNick §8] §7==========");
+				utils.sendConsole("§7§n-----------[- §aBlockPixelNickName §7§n-]----------");
 				utils.sendConsole("");
 
 				if (!(reflectVersion.equals("v1_7_R4") || reflectVersion.equals("v1_8_R1")
@@ -259,7 +259,7 @@ public class EazyNick extends JavaPlugin {
 				}
 
 				utils.sendConsole("");
-				utils.sendConsole("§7========== §8[ §5§lEazyNick §8] §7==========");
+				utils.sendConsole("§7§n-----------[- §aBlockPixelNickName §7§n-]----------");
 
 				if (spigotUpdater.checkForUpdates())
 					isCancelled = true;
@@ -291,12 +291,12 @@ public class EazyNick extends JavaPlugin {
 		if (fileUtils.getConfig().getBoolean("BungeeCord"))
 			mysql.disconnect();
 		
-		utils.sendConsole("§7========== §8[ §5§lEazyNick §8] §7==========");
+		utils.sendConsole("§7§n-----------[- §aBlockPixelNickName §7§n-]----------");
 		utils.sendConsole("");
 		utils.sendConsole("§7Plugin by§8: §3" + getDescription().getAuthors().toString().replace("[", "").replace("]", ""));
 		utils.sendConsole("§7Version§8: §3" + getDescription().getVersion());
 		utils.sendConsole("");
-		utils.sendConsole("§7========== §8[ §5§lEazyNick §8] §7==========");
+		utils.sendConsole("§7§n-----------[- §aBlockPixelNickName §7§n-]----------");
 	}
 	
 	public File getPluginFile() {
